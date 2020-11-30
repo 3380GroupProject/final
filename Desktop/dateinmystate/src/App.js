@@ -18,14 +18,14 @@ function App() {
         <button class="navbar-toggler" tyspe="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-4">
             <li class="nav-item active">
               <a href="https://www.match.com/">Love Test</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ml-4">
               <a href="./dateideas.js">Date Ideas</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ml-4">
               <a href="https://weather.com/weather/tenday/l/8cafaf9a8d962a59958d8f84fc9e6756fb1d33ac27eaa1e2156384aa715f2d92">Weather</a>
             </li>
           </ul>
