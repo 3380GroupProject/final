@@ -14,7 +14,6 @@ function App() {
     <div className="App">
 
       <nav class="navbar navbar-expand">
-        <a class="navbar-brand" href="/#">Date in My State</a>
         <button class="navbar-toggler" tyspe="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -34,7 +33,8 @@ function App() {
 
       <header className="App-header">
 
-
+      <div class="rectangle">
+        
         <div>
           <br></br>
           <img src={logo} alt="logo" height="100px" width="500px" />
@@ -84,9 +84,11 @@ function App() {
             <span class="sr-only">Next</span>
           </a>
         </div>
-
+        </div>
       </header>
+      
     </div>
+    
   );
 }
 
